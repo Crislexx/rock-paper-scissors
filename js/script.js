@@ -35,7 +35,7 @@ function game(){
     for (let i = 0; i < 5; i++) {
         playerSelection = prompt("Please write your selection between: Rock, Paper and Scissors").toLocaleLowerCase();
         computerSelection = getComputerChoice();
-        oneRound = singleRound(playerSelection, computerSelection);
+        oneRound = singleRound(playerSelection, computerSelection).toLowerCase();
         if(oneRound.slice(4,5) == "w"){
             playerWinCounter++;
             console.log(oneRound);
