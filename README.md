@@ -1,1 +1,1 @@
-A simple game of Rock Paper Scissors that plays 5 rounds including ties and return the results in console.
+A simple game of Rock Paper Scissors that plays 5 rounds, including ties, and return the results in console.
